@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+/* 間距*/
+.mt-2 {
+  margin-bottom: 16px;
+}
+
+.mt-4 {
+  margin-bottom: 32px;
+}
+
+.mt-5 {
+  margin-bottom: 40px;
+}
+
+.mt-7 {
+  margin-bottom: 56px;
+}
+
+.pb {
+  padding-bottom: 4px;
+}
+
+.pb-2 {
+  padding-bottom: 8px;
+}
+
+.pb-3 {
+  padding-bottom: 12px;
+}
+
+.pb-6 {
+  padding-bottom: 24px;
+}
+
+.pb-7 {
+  padding-bottom: 28px;
+}
+
+.pb-8 {
+  padding-bottom: 32px;
+}
+
+.pb-12 {
+  padding-bottom: 48px;
+}
+
+/* 字型*/
+h2 {
+  font-size: 64px;
+  line-height: 84px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.banner {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+  background-position: center, center;
+  background-size: cover;
+}
+.banner .bannerContent {
+  padding: 308px 0;
+}
+.banner p {
+  font-size: 24px;
+  line-height: 42px;
+}
+.banner .slogan {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.banner h1 {
+  font-size: 80px;
+  line-height: 106px;
+  font-weight: 900;
+}
+.banner .socialMedia {
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+  margin-right: 16px;
+}
+.banner a:hover {
+  transform: rotate(45deg);
+}
+
+.about {
+  text-align: center;
+}
+.about li {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+}
+.about img {
+  margin-bottom: 20px;
+}
+.about .job {
+  width: 384px;
+  margin: 0 auto;
+  border-top: 1px solid #000000;
+  padding-top: 28px;
+}
+.about .job .circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  margin-right: 16px;
+}
+
+.brand {
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 1px solid #707070;
+  padding-top: 56px;
+  padding-bottom: 160px;
+}
+.brand .brandScribe {
+  font-size: 20px;
+  margin-bottom: 68px;
+}
+.brand .brandSlogan {
+  font-size: 24px;
+  line-height: 42px;
+}
+.brand .imgList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.brand .imgList .img2 {
+  padding-right: 24px;
+}
+
+.work {
+  text-align: center;
+  margin-bottom: 144px;
+}
+.work p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.work .itemList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work .itemList .itemName {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 64px 0;
+}/*# sourceMappingURL=all.css.map */

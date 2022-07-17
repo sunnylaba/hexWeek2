@@ -1,0 +1,114 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+    background-position: center, center;
+    background-size: cover;
+    .bannerContent {
+        padding: 308px 0;
+    }
+    p {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .slogan {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    h1 {
+        font-size: 80px;
+        line-height: 106px;
+        font-weight: 900;
+    }
+    .socialMedia {
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        margin-right: 16px;
+    }
+    a:hover {
+        transform: rotate(45deg);
+    }
+}
+
+.about {
+    text-align: center;
+    li {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 42px;
+    }
+    img {
+        margin-bottom: 20px;
+    }
+    .job {
+        width: 384px;
+        margin: 0 auto;
+        border-top: 1px solid #000000;
+        padding-top: 28px;
+        .circle {
+            display: inline-block;
+            border-radius: 50%;
+            width: 22px;
+            height: 22px;
+            background-color: #891818;
+            margin-right: 16px;
+        }
+    }
+}
+
+.brand {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid #707070;
+    padding-top: 56px;
+    padding-bottom: 160px;
+    .brandScribe {
+        font-size: 20px;
+        margin-bottom: 68px;
+    }
+    .brandSlogan {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .imgList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       .img2{
+            padding-right: 24px;
+        }
+    }
+}
+
+.work {
+    text-align: center;
+    margin-bottom: 144px;
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itemList {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .itemName {
+            font-size: 20px;
+            line-height: 42px;
+        }
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 64px 0;
+}
